@@ -17,3 +17,19 @@ function solution(number) {
 // for 문 자체는 잘 사용하기 때문에 푸는 방법을 알고나니, 쉽게 풀렸다.
 // 삼총사 이므로, 3개의 정수의 합이 0인 경우 answer 로 넘겨주면 된다.
 // i,j,z,4,5,6,... 이라는 배열에서 z 값을 4,5,6,... 바꿔주며 삼총사를 찾고, i,1,j,z,5,6,... j가 바뀌어 또다시 찾고..
+
+// 아래는 리액트 state 연습한거
+// const SOS = ({ onSOS }) => {
+//   const [count, setCount] = useState(0);
+//   const handleClick = () => {
+//     setCount(count + 1);
+//     const timer = setTimeout(() => {
+//       if (count > 2) {
+//         onSOS();
+//       } else {
+//         clearTimeout(timer);
+//       }
+//     }, 1000);
+//   };
+//   return <button onClick={handleClick}>1초안에 세번 누르면 긴급호출</button>;
+// };
