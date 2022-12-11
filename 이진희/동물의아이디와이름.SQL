@@ -1,0 +1,3 @@
+-- 문제 : id 와 name 을 내림차순 으로 출력
+
+SELECT ANIMAL_ID,NAME FROM ANIMAL_INS ORDER BY ANIMAL_ID ASC;
